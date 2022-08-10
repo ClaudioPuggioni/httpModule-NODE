@@ -4,7 +4,7 @@ const fs = require("fs");
 // console.log(http.STATUS_CODES); // show status codes
 let counter = 0;
 const server = http.createServer((request, response) => {
-  //   console.log("Request Incoming", request.headers);
+  //   console.log("Request Incoming", request.headers); // show headers of request
   //   console.log("METHOD IS:", response.method); // type of request (i.e., "GET", "POST")
   console.log("URL IS:", request.url);
   //   if (request.url === "/end") {
